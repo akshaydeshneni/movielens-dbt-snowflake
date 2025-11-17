@@ -1,0 +1,30 @@
+[0m15:16:14.931564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bb297c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbcaeb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbcab80>]}
+
+
+============================== 15:16:14.934346 | 111f4301-acb6-485c-adad-09ac0fc4ee27 ==============================
+[0m15:16:14.934346 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m15:16:14.934685 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'printer_width': '80', 'empty': 'None', 'fail_fast': 'False', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/Users/akshaydeshneni/.dbt', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'write_json': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init movielens', 'use_experimental_parser': 'False', 'use_colors': 'True', 'warn_error': 'None', 'log_cache_events': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'introspect': 'True', 'log_path': 'logs', 'no_print': 'None', 'debug': 'False'}
+[0m15:16:14.943285 [debug] [MainThread]: Starter project path: /Users/akshaydeshneni/Documents/GitHub/movielens-dbt-snowflake/dbt-env/lib/python3.9/site-packages/dbt/include/starter_project
+[0m15:16:14.948251 [info ] [MainThread]: 
+Your new dbt project "movielens" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:16:14.948500 [info ] [MainThread]: Setting up your profile.
+[0m15:18:50.364870 [info ] [MainThread]: Profile movielens written to /Users/akshaydeshneni/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:18:50.376666 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 155.4954, "process_in_blocks": "0", "process_kernel_time": 0.237114, "process_mem_max_rss": "115900416", "process_out_blocks": "0", "process_user_time": 1.098734}
+[0m15:18:50.378292 [debug] [MainThread]: Command `dbt init` succeeded at 15:18:50.377903 after 155.50 seconds
+[0m15:18:50.379712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bb297c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cc5feb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca20550>]}
+[0m15:18:50.380727 [debug] [MainThread]: Flushing usage events
+[0m15:18:50.583950 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: movielens  # This is the top-level name for your source
+    schema: raw     # All tables below are in the 'raw' schema
+    tables:         # List of tables in this source
+      - name: r_movies
+        identifier: movies
+      - name: r_ratings
+        identifier: ratings
+      - name: r_tags
+        identifier: tags
+      - name: r_links
+        identifier: links
+      - name: r_genome_tags
+        identifier: genome_tags
+      - name: r_genome_scores
+        identifier: genome_scores
